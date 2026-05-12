@@ -36,7 +36,8 @@ h1 {
 }
 
 .controls,
-.topic-card {
+.topic-card,
+.rules-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -79,4 +80,21 @@ button:hover {
 #topic-text {
   font-size: 1.2rem;
   line-height: 1.45;
+}
+
+.rules-tagline {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.rules-list {
+  padding-left: 1.3rem;
+}
+
+.rules-list li {
+  margin-bottom: 1rem;
+}
+
+.rules-list p {
+  margin: 0.35rem 0;
 }
