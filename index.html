@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impromptu Speech Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Impromptu Speech Topic Generator</h1>
+      <p class="subtitle">
+        Aerospace education, Civil Air Patrol, emergency services, and mission-ready leadership topics.
+      </p>
+
+      <section class="controls">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="all">All Topics</option>
+          <option value="aerospace">Aerospace Education</option>
+          <option value="cap">Civil Air Patrol</option>
+          <option value="emergency">Emergency Services</option>
+          <option value="leadership">Leadership & Character</option>
+        </select>
+
+        <button id="new-topic" type="button">Generate Topic</button>
+      </section>
+
+      <section class="topic-card" aria-live="polite">
+        <h2>Your Topic</h2>
+        <p id="topic-text">Click “Generate Topic” to begin.</p>
+      </section>
+
+      <section>
+        <h3>All Topics in Selected Category</h3>
+        <ul id="topic-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
