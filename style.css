@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light;
+  --bg: #eef4fb;
+  --card: #ffffff;
+  --text: #1f2a37;
+  --muted: #5f6b7a;
+  --accent: #0b63ce;
+  --accent-dark: #084d9f;
+  --border: #d7e1ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #e9f1fb 0%, #f7faff 100%);
+  color: var(--text);
+}
+
+.container {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.controls,
+.topic-card,
+section:last-child {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.controls {
+  display: grid;
+  gap: 0.7rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+select,
+button {
+  font-size: 1rem;
+  padding: 0.65rem 0.8rem;
+  border-radius: 8px;
+}
+
+select {
+  border: 1px solid #c4d3e6;
+}
+
+button {
+  border: none;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: var(--accent-dark);
+}
+
+#topic-text {
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+#topic-list {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+
+#topic-list li {
+  margin: 0.35rem 0;
+}
