@@ -36,8 +36,7 @@ h1 {
 }
 
 .controls,
-.topic-card,
-section:last-child {
+.topic-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -80,13 +79,4 @@ button:hover {
 #topic-text {
   font-size: 1.2rem;
   line-height: 1.45;
-}
-
-#topic-list {
-  margin: 0.5rem 0 0;
-  padding-left: 1.2rem;
-}
-
-#topic-list li {
-  margin: 0.35rem 0;
 }
